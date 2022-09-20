@@ -2,16 +2,16 @@ import React from "react";
 
 export function Menu() {
   return (
-    <div className="flex justify-between w-full">
-      <div className="flex gap-4">
-        <div className="">Features</div>
-        <div className="">Company</div>
-        <div className="">Carrers</div>
-        <div className="">About</div>
+    <div className="flex flex-col md:flex-row justify-between w-full">
+      <div className="flex flex-col md:flex-row gap-4">
+        <div className="text-sm">Features</div>
+        <div className="text-sm">Company</div>
+        <div className="text-sm">Carrers</div>
+        <div className="text-sm">About</div>
       </div>
-      <div className="flex gap-4">
-        <div className="">Login</div>
-        <div className="">Register</div>
+      <div className="flex flex-col md:flex-row gap-4">
+        <div className="text-sm">Login</div>
+        <div className="text-almostBlack text-sm">Register</div>
       </div>
     </div>
   );

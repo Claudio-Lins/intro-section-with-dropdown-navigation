@@ -5,7 +5,13 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        almostWhite: "#fafafa",
+        mediumGray: '#696969',
+        almostBlack: '#141414'
+      }
+    },
   },
   corePlugins: {
     aspectRatio: false,
