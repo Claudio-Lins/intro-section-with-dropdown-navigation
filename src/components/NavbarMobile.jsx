@@ -14,6 +14,8 @@ export function NavbarMobile() {
   return (
     <>
       <div className="flex  md:hidden w-full justify-between p-5">
+    <div className="md:hidden">
+      <div className="flex w-full justify-between p-5">
         <div>
           <Image src="/images/logo.svg" width={91} height={30} alt="" />
         </div>
@@ -57,7 +59,7 @@ export function NavbarMobile() {
                   {Menus.map((menu, index) => (
                     <li
                       key={index}
-                      className="flex items-center mb-3 text-base font-semibold text-almostBlack"
+                      className="flex items-center mb-3 text-base text-almostBlack"
                     >
                       <span className="">{menu.icon}</span>
                       <a href={menu.link}>{menu.title}</a>
@@ -73,6 +75,6 @@ export function NavbarMobile() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

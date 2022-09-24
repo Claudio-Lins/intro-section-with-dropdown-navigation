@@ -32,7 +32,7 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div className="mt-8 flex w-full flex-col items-start justify-evenly gap-8 bg-white px-4 md:mt-0 md:h-screen md:w-1/2 md:gap-0 md:px-8">
+        <div className="mt-8 flex w-full flex-col items-start justify-evenly gap-4 bg-white px-4 md:mt-0 md:h-[calc(100vh_-_80px)] md:w-1/2 md:justify-center md:gap-20 md:px-8">
           <h1 className="w-full text-center text-[34px] font-bold md:text-left md:text-7xl">
             Make remote work
           </h1>

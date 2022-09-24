@@ -9,7 +9,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <NavbarMobile />
       <main>{children}</main>
       <Footer/>
