@@ -12,8 +12,6 @@ export function NavbarMobile() {
   }
 
   return (
-    <>
-      <div className="flex  md:hidden w-full justify-between p-5">
     <div className="md:hidden">
       <div className="flex w-full justify-between p-5">
         <div>
