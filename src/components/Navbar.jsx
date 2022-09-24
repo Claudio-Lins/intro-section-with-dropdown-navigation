@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import { CaretDown, List, X } from "phosphor-react";
 import { useState } from "react";
 import { Company, Features, Menus } from "../../data/menusMobile";
 import { Dropdown } from "./Dropdown";
